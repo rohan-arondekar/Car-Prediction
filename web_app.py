@@ -6,8 +6,7 @@ import pickle
 file = open('car_prediction_model.pkl','rb')
 classifier = pickle.load(file)
 
-st.title('Car Price Prediction')
-st.image('cars_image.jpg',use_column_width=True)
+st.image('cars_image_title.png',use_column_width=True)
 st.header("Fill details below to get an estimate")
 st.markdown('')
 
